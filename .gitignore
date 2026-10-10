@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+smoke_screenshot.png
+.claude/

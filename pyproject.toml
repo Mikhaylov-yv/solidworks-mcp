@@ -1,0 +1,21 @@
+[project]
+name = "solidworks-mcp"
+version = "0.1.0"
+description = "MCP-сервер для совместной работы ИИ-агентов и человека в запущенном SOLIDWORKS (COM API)"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+keywords = ["solidworks", "mcp", "cad", "claude", "ai-agent", "com"]
+classifiers = [
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "mcp[cli]>=1.9,<2",
+    "pywin32>=308",
+    "pillow>=10",
+]
+
+[project.urls]
+Repository = "https://github.com/Mikhaylov-yv/solidworks-mcp"
